@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#content{
+padding-left: 100px;
+padding-right: 50px;
+}
+
+
+#header{
+
+height: 20px;
+background-color: yellowgreen;
+
+}
+
+#main{
+height: 20px;
+width: 100%;
+background-color:red;
+}
+
+#left{
+position: relative;
+height: 20px;
+width: 100px;
+background-color:green;
+margin-left: -100%;
+right: 100px;
+}
+
+#right{
+height: 20px;
+width: 50px;
+background-color:pink;
+margin-right: -50px;
+}
+
+#footer{
+clear: both;    
+/* 清理float */
+height: 20px;
+background-color:yellow;
+}
+
+.column{
+    float: left;
+}
+</style>
+
+
+
+<body>
+<div id="header" ></div>
+<div id="content">   
+    <!-- 需要容器设置padding两边的距离 -->
+
+    <div id="main" class="column"></div>
+    
+    <div id="left"class="column"></div>
+    
+    <div id="right"class="column"></div>
+    
+</div>
+<div id="footer"></div>
+
+</body>
+</html>

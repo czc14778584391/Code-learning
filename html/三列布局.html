@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+div{
+
+text-align: center;
+
+}
+#content{
+
+}
+
+#main{
+ width: 100%;   
+ background-color: pink;
+}
+
+#main #main-wrapper{
+    margin-left: 150px;
+    margin-left: 50px;
+}
+
+#left{
+    width: 150px; 
+    background-color: red;
+    margin-left: -100%;
+}
+
+#right{
+    width:50px; 
+    background-color:yellow; 
+    margin-left: -50px;
+}
+
+.column{
+    float: left;
+}
+</style>
+
+
+<div id="content">
+    <div id="main" class="column">    
+        <!-- 区别在于main 父元素  设置父元素的margin，保证两边有空间 -->
+
+        <div id="main-wrapper">
+            main
+        </div>
+
+    </div>
+    <div id="left" class="column">left</div>
+    <div id="right" class="column">right</div>
+</div>
+
+</body>
+</html>
