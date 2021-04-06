@@ -73,7 +73,7 @@ bfs(tree);//广度优先
 // const bfs=root=>{
 //     const p=[root];
 //     while(p.length>0){
-//        const n =p.shift();
+//        const n =p.shift();s
 //         console.log(n.val);
 //         n.children.forEach(child=>{
 //             p.push(child);
